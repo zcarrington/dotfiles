@@ -6,7 +6,7 @@ function Remove-DanglingContainers {
 }
 
 function Invoke-ClearGitBranch { 
-	clear
+	Clear-Host
 	git branch
 }
 
